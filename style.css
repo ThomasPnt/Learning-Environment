@@ -7,6 +7,5 @@
 
 .table {
   background-color: Steelblue;
-  background-clip: border-box;
-
+  text-align: center;
 }
