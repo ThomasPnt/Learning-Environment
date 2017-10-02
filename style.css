@@ -1,11 +1,32 @@
+body {
+  background-color: lightblue;
+}
+
 .title {
   font-family: Times , serif;
   text-align: center ;
-  background-color: yellow;
+  background: url(521011652.jpg);
+  margin-left:120px;
+  margin-right: 120px;
+  color: white;
+}
 
+.size{
+  text-align: center;
+  margin-left: 300px;
+  margin-right: 300px;
+
+}
+
+.title2 {
+  text-align: center;
+  border-bottom: 1px;
+  margin-top: 100px;
 }
 
 .table {
   background-color: Steelblue;
   text-align: center;
+  margin: auto;
+  font-family: sans-serif;
 }
