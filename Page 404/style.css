@@ -3,7 +3,7 @@ body {
   margin-right: 10%;
   margin-top:5%;
   text-align: center;
-  border: 3px solid black;
+  padding-bottom: 20px;
 }
 
 .button {
@@ -15,15 +15,33 @@ body {
   font-size: 30px;
   width: 150px;
   height: 50px;
+  border-radius: 50px;
+}
+
+.button:hover {
+  background-color: #F55872;
+  box-shadow: 0 2px #666;
+}
+
+.button:active {
+  background-color: #F55872;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
 }
 
 .text {
-  font-size: 40px;
+  font-size: 35px;
+  background-image: url(laptop-157424_960_720.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  padding-top: 80px;
+  text-transform: uppercase;
+  font-family : Arial;
+  position: relative;
 }
 
 .img .text {
  margin: auto;
- background-image: url(laptop-157424_960_720.png);
  height: 720px;
  width: 900px;
 }
