@@ -8,6 +8,10 @@ line-height: 75px;
 margin-top: auto;
 }
 
+body {
+  background-color:rgb(245,147,111);
+}
+
 .firstpart {
   font-family: cursive ;
 }
@@ -38,7 +42,6 @@ margin-top: auto;
   margin: 50px 100px 50px 100px;
   border-radius: 50%;
   float: left;
-  width: 50%;
 }
 
 .img-circle {
@@ -47,7 +50,7 @@ margin-top: auto;
 
 .list {
   display: inline-block;
-  width: 1700px;
+  width: 1900px;
   list-style: none;
   padding-left: 0;
   margin-left: 50px;
@@ -56,10 +59,11 @@ margin-top: auto;
 
 .list li {
   float: left;
+
 }
 
 .logo {
-  padding-left: 50px;
+  padding-left: 100px;
 }
 
 .list li p {
