@@ -34,12 +34,37 @@ margin-top: auto;
   font-size: 30px;
 }
 
-.imgassociation {
-  display:inline;
+.img-circle img {
   margin: 50px 100px 50px 100px;
+  border-radius: 50%;
+  float: left;
+  width: 50%;
 }
 
-.txt {
+.img-circle {
+  width: 25%;
+}
+
+.list {
   display: inline-block;
-  font-size: 10px;
+  width: 1700px;
+  list-style: none;
+  padding-left: 0;
+  margin-left: 50px;
+  margin : auto;
+}
+
+.list li {
+  float: left;
+}
+
+.logo {
+  padding-left: 50px;
+}
+
+.list li p {
+  width: 200px;
+  text-align: justify;
+  margin: auto;
+
 }
