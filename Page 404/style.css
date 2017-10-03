@@ -1,0 +1,29 @@
+body {
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top:5%;
+  text-align: center;
+  border: 3px solid black;
+}
+
+.button {
+  font: 24px;
+  padding: 6px;
+  background: red;
+  font-family: fantasy;
+  color: white;
+  font-size: 30px;
+  width: 150px;
+  height: 50px;
+}
+
+.text {
+  font-size: 40px;
+}
+
+.img .text {
+ margin: auto;
+ background-image: url(laptop-157424_960_720.png);
+ height: 720px;
+ width: 900px;
+}
