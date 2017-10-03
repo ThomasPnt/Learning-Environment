@@ -36,9 +36,10 @@ margin-top: auto;
 
 .imgassociation {
   display:inline;
+  margin: 50px 100px 50px 100px;
 }
 
 .txt {
-  display: inline;
+  display: inline-block;
   font-size: 10px;
 }
