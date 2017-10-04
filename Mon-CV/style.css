@@ -1,6 +1,6 @@
 body {
-  margin-right: 12.5% ;
-  margin-left: 12.5% ;
+  margin-right: 17% ;
+  margin-left: 17% ;
   margin-top: 5% ;
 }
 
@@ -19,6 +19,7 @@ p span {
 
 h2 {
   border-bottom: 3px solid #0CD7E8;
+  padding-left: 25px;
 }
 
 div {
@@ -27,12 +28,32 @@ div {
 
 .titre {
   float:left;
+  padding-left: 5px;
+  padding-right: 5px;
+  background-color: #B5E0C5;
+  width: 9.5%;
 }
 
 .reponse {
   margin-left: 12%;
+  padding-left: 5px;
+  padding-right: 5px;
+  background-color: #C9E0C5;
 }
 
-.titre {
-  height: 180px;
+.inf {
+  height: 74.5px;
+}
+
+.date {
+  padding-bottom: 19px;
+}
+
+.info {
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.titre .res {
+  height: 199px;
 }
