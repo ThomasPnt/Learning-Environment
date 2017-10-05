@@ -12,7 +12,6 @@
 .sub {
   font-family: 'Pathway Gothic One', sans-serif;
   color: yellow;
-  height: 1000px;
   perspective: 400px;
   font-size: 25px;
   font-weight: 600;
@@ -23,6 +22,7 @@
   transform: perspective(300px) rotateX(10deg);
   padding-left: 15%;
   padding-right: 15%;
+  animation: crawl 10s linear;
 }
 
 .sub h2 {
@@ -30,4 +30,12 @@
   padding-bottom: 200px;
   font-size: 50px;
   font-weight: 900;
+}
+
+
+@keyframes crawl {
+  0% {
+    transform: translate3d(0,1000px,0);}
+  100% {
+    transform: translate3d(0,-10px,1);}
 }
