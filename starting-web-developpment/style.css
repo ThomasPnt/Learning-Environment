@@ -44,6 +44,10 @@ div {
   color: #D43B3F;
 }
 
+.mr h2 {
+  color: #7A7A7A;
+}
+
 .link{
   padding: 2.5%;
 }
@@ -88,4 +92,39 @@ div {
 
 .movie {
   background-color: white;
+  padding-top: 2.5%;
+  padding-right: 5%;
+  padding-left: 5%;
+  box-shadow: 5px 5px 2px 2px #A1A0A0;
+}
+
+.title {
+  color : #7A7A7A;
+  text-align: center;
+  padding-bottom: 5%;
+}
+
+.film {
+  display: flex;
+  padding-top: 2.5%;
+  padding-bottom: 10%;
+}
+
+.desc {
+  margin-left: 5%;
+}
+
+.his{
+  background-color: #CFCDCD;
+}
+
+.desc h4{
+  text-align: center;
+  margin-top: 0;
+  color: #7A7A7A;
+}
+
+.desc p{
+  text-align: justify;
+  line-height: 250%;
 }
