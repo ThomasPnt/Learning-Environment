@@ -6,26 +6,38 @@ width: 100%;
 height: 75px;
 line-height: 75px;
 margin-top: auto;
+font-family: 'Ubuntu', sans-serif ;
+font-size: 150%;
+margin-bottom: 1%;
 }
 
 body {
-  background-color:rgb(245,147,111);
+  background-color:#F5B387;
   margin-left: 2%;
   margin-right: 2%;
 }
 
 .firstpart {
-  font-family: cursive ;
+  font-family: 'Ubuntu', sans-serif ;
 }
 
 .citation {
   text-align: center;
 }
 
+.border {
+  background-color: #DE8662;
+  border-radius: 10%;
+  padding: 1%;
+  margin-bottom: 1%;
+}
+
 .video {
   display: table;
   margin-left: 350px;
   margin-right: 50px;
+  font-family: 'Ubuntu' , sans-serif;
+  font-size: 125%;
 }
 
 .secondpart {
@@ -37,15 +49,15 @@ body {
 
 .secondtitle {
   text-align: center;
-  font-size: 30px;
+  font-size: 175%;
 }
 
-.img-circle img {
+.logo img{
   margin: 50px 100px 50px 100px;
-  border-radius: 50%;
+  border-radius: 30%;
   float: left;
   height: 100px;
-  width: 200px;
+  width: 210px;
 }
 
 .img-circle {
@@ -53,26 +65,47 @@ body {
 }
 
 .list {
-  display: inline-block;
-  width: 1900px;
-  list-style: none;
-  padding-left: 0;
-  margin-left: 50px;
-  margin : auto;
-}
-
-.list li {
-  float: left;
-
+  display: inline-flex;
+  font-family: 'Ubuntu' , sans-serif;
+  font-size: 105%;
 }
 
 .logo {
-  padding-left: 100px;
+  padding: 1%;
 }
 
-.list li p {
-  width: 200px;
+.logo p {
+  padding: 20%;
   text-align: justify;
-  margin: auto;
+  background-color: #DE8662;
+  border-radius: 20%;
+  height: 60%;
+}
 
+.don {
+  text-align: center;
+}
+
+.don a{
+  text-align: center;
+  text-decoration: none;
+  padding: 2%;
+  background-color: red;
+  margin-left: 40%;
+  margin-right: 40%;
+  color: white;
+  font-size: 150%;
+  font-weight: bold;
+  border-radius: 25%;
+  box-shadow: 5px 5px black;
+}
+
+
+footer {
+  border-top: 5px solid #D15700;
+}
+
+footer .contact {
+  float: left;
+  margin: 0;
 }
