@@ -98,6 +98,13 @@ body {
   font-weight: bold;
   border-radius: 25%;
   box-shadow: 5px 5px black;
+  transition: 0.5s;
+}
+
+.don a:hover{
+  background-color: #F5574D;
+  color: yellow;
+  font-size: 200%;
 }
 
 
