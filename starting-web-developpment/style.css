@@ -63,6 +63,10 @@ div {
   letter-spacing: 1px;
 }
 
+.link a:hover{
+  background-color: #7A7A7A;
+  transition: 0.3s;
+}
 
 
 .social li{
