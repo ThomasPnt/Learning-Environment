@@ -21,7 +21,7 @@ div {
   color: #A1A0A0;
 }
 
-.mr {
+.block {
   text-align: center;
   padding: 2.5%;
   margin-bottom: 5%;
@@ -35,7 +35,7 @@ div {
   padding-right: 5%;
 }
 
-.mr img {
+.image img {
   border-radius: 100%;
   border: 5px solid #E8E8E8;
 }
@@ -63,12 +63,7 @@ div {
   letter-spacing: 1px;
 }
 
-.social {
-  background-color: white;
-  margin-bottom: 5%;
-  text-align: center;
-  box-shadow: 1px 1px 2px 2px #BDBAAB;
-}
+
 
 .social li{
   display: inline-block;
@@ -88,14 +83,6 @@ div {
 
 .social ul{
   padding-left: 0;
-}
-
-.movie {
-  background-color: white;
-  padding-top: 2.5%;
-  padding-right: 5%;
-  padding-left: 5%;
-  box-shadow: 1px 1px 2px 2px #BDBAAB;
 }
 
 .title {
