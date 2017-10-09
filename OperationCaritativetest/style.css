@@ -50,6 +50,7 @@ body {
 .secondtitle {
   text-align: center;
   font-size: 175%;
+  border-bottom: 1px solid #D15700 ;
 }
 
 .logo img{
