@@ -1,5 +1,5 @@
 .titreprincipal {
-background-image:url(backgroundpoor.png);
+background-image:url(charity.jpg);
 color: white;
 text-align: center;
 width: 100%;
@@ -57,30 +57,31 @@ body {
   margin: 50px 100px 50px 100px;
   border-radius: 30%;
   float: left;
-  height: 100px;
-  width: 210px;
+  height: 10%;
+  width: 50%;
 }
 
 .img-circle {
-  width: 25%;
+  width: 100%;
 }
 
 .list {
   display: inline-flex;
   font-family: 'Ubuntu' , sans-serif;
-  font-size: 105%;
 }
 
 .logo {
   padding: 1%;
+  width: 25%;
 }
 
-.logo p {
+.logo p{
   padding: 20%;
   text-align: justify;
   background-color: #DE8662;
   border-radius: 20%;
-  height: 60%;
+  height: 40%;
+  font-size: 100%;
 }
 
 .don {
@@ -106,14 +107,4 @@ body {
   background-color: #F5574D;
   color: yellow;
   font-size: 200%;
-}
-
-
-footer {
-  border-top: 5px solid #D15700;
-}
-
-footer .contact {
-  float: left;
-  margin: 0;
 }
