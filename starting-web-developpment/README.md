@@ -9,7 +9,7 @@ j'ai copié les liens demandé dans le head de mon html pour pouvoir obtenir la 
 
 ---
 
-Dans ma div principal j'ai donc mis la police d'écriture que je voulais ainsi que la couleur de la police de base. Le tout avec une largeur de 50% et un margin auto pour avoir le texte qui ne prend que 50% de l'écran et se retrouve au centre.
+Dans ma div principal j'ai donc mis la police d'écriture que je voulais ainsi que la couleur de la police de base. Le tout avec une largeur de 800px, pour avoir le site un minimum responsive.
 
 ---
 
